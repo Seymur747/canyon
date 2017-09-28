@@ -1,0 +1,60 @@
+body{
+	background: grey;
+}
+
+#main{
+	width: 600px;
+	height: 520px;
+	/*background: darkgrey;*/
+	position: relative;
+	margin: 0 auto;
+	top: 100px;
+	overflow: hidden;
+}
+.alldivs{
+	height: 640px;
+	width: 100%;
+	/*background: pink;*/
+	position: relative;
+}
+
+.visible{
+	width: 100%;
+	height: 280px;
+	background: white;
+	position: absolute;
+	top: 120px;
+	z-index: 1
+}
+.linediv{
+
+	width: 100%;
+	height: 60px;
+	background: pink;
+	position: absolute;
+bottom:  60px;
+	transition: all 0.5s ease;
+}
+.boxdiv{
+	width:60px;
+	height: 60px;
+border-right: 1px solid white;
+background: green;
+}
+button{
+position: relative;
+left: 100px;
+
+	top: 0px;
+
+}
+.down{
+	margin-left:  50px;
+}
+.hlar{
+	position: absolute;
+	top: 275px;
+	display: none;
+	transition: 1s ease;
+
+}
